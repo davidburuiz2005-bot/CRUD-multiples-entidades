@@ -88,6 +88,7 @@ public class UserController {
 
         User user = new User();
 
+        user.setId(id);
         user.setName(body.getName());
         user.setEmail(body.getEmail());
         user.setAge(body.getAge());
